@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet"href="style.css">
+        <meta name="description" content="I'm Sandra Menson, a UI/UX Designer & Entrepreneur based in Ghana. Explore my work, learn about my experience, and connect.">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo3.png" class="logo4">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <section class="hero flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-6 py-12 bg-white dark:bg-gray-900">
+  <div class="hero-text text-center md:text-left">
+    <p class="text-blue-600 font-semibold uppercase tracking-wide">UI/UX Designer & Entrepreneur</p>
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-4">Hi, I'm <em class="text-blue-600">Sandra</em><br>Menson from Ghana</h1>
+  </div>
+  <div class="hero-image">
+    <img src="images/background.png" alt="Hero background" class="w-full max-w-md mx-auto md:mx-0 h-auto">
+  </div>
+</section>
+    <section class="about flex flex-col md:flex-row items-center justify-center gap-8 px-6 py-12 bg-gray-100 dark:bg-gray-900" id="about">
+  <div class="about-image">
+    <img src="images/my profile.png.jpg" alt="Profile photo" class="w-full max-w-sm rounded-lg shadow-md">
+  </div>
+  <div class="about-text text-right md:text-left">
+    <p class="text-xl font-semibold text-red-500 border-b-2 inline-block border-red-500 mb-4">About Me</p>
+    <p class="text-gray-800 dark:text-gray-300 leading-relaxed">
+      Hi, I'm Menson Sandra, a UI/UX designer and entrepreneur with a passion for innovation and digital transformation.
+      As the founder of MS Pixels, I design and develop user-centered solutions for clients and build products that solve real-world problems. I have 2 years of experience in design and 3 years in entrepreneurship.
+      When I'm not working, you can find me at design conferences, mentoring startups, or exploring new business opportunities.
+    </p>
+  </div>
+</section>
+
+    <section class="portfolio">
+        <p id="titles">
+            Portfolio
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 max-w-7xl mx-auto">
+    <!-- Card 1 -->
+    <div class="bg-white shadow-md border border-gray-200 rounded-lg w-full dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="https://img.freepik.com/premium-psd/digital-marketing-agency-web-template_180294-56.jpg" alt="">
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                     Digital Marketplace
+                </h5>
+            </a>
+            <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">
+                Launched a digital marketplace connecting freelance designers with clients, streamlining the hiring process and providing opportunities for designers to build their portfolios.
+            </p>
+            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg class="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-white shadow-md border border-gray-200 rounded-lg w-full dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="https://public-images.interaction-design.org/literature/articles/materials/PONMo61b9QMX0GZvguvRft35nhDu3KG6Asa2NkI3.jpg" alt="">
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                    Design-Thinking Workshop Series
+                </h5>
+            </a>
+            <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">
+                Created a workshop series to teach entrepreneurs and business leaders design-thinking principles and UI/UX best practices, empowering them to build more user-centered products and services.
+            </p>
+            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg class="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-white shadow-md border border-gray-200 rounded-lg w-full dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="https://www.figma.com/community/resource/780f2089-51f3-4bc4-8d94-834c8e9042fb/thumbnail" alt="">
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                    E-Commerce Redesign
+                </h5>
+            </a>
+            <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">
+                Led a redesign project for an e-commerce client, resulting in a 25% increase in conversion rates and a 30% decrease in bounce rates.
+            </p>
+            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg class="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-white shadow-md border border-gray-200 rounded-lg w-full dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+                    Noteworthy technology acquisitions 2021
+                </h5>
+            </a>
+            <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+            </p>
+            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg class="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- Repeat the other 2 cards the same way -->
+</div>
+
+    </section>
+    <section class="bg-gray-100 dark:bg-gray-900 py-16 px-4 sm:px-6 lg:px-8" id="contact">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white mb-4">Contact Me</h2>
+    <p class="text-lg text-gray-600 dark:text-gray-300 mb-10">
+      Have a question, idea, or want to work together? Send me a message!
+    </p>
+  </div>
+
+  <div class="max-w-2xl mx-auto">
+    <form action="#" method="POST" class="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Your Name</label>
+        <input type="text" name="name" id="name" required class="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-blue-500 focus:border-blue-500">
+      </div>
+      
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Your Email</label>
+        <input type="email" name="email" id="email" required class="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-blue-500 focus:border-blue-500">
+      </div>
+      
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Message</label>
+        <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-blue-500 focus:border-blue-500"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="inline-block px-6 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800">
+          Send Message
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+</body>      
+</html>
+
